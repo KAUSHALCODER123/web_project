@@ -86,13 +86,8 @@ function Header() {
             }`}
           >
             <ThemeSwitcher />
-            <Link
-              className="text-xl xl:text-2xl bad ml-1 xl:ml-4"
-              to={"https://github.com/Siza36/react-shop"}
-              target="_blank"
-            >
-              <FaGithub />
-            </Link>
+           
+          
           </div>
         </div>
       </div>
