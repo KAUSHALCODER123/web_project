@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -226,27 +225,13 @@ function Footer() {
           {/* Social links */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li className="ml-4">
-              <Link
-                to="https://github.com/Siza36"
-                target="_blank"
-                className="flex justify-center items-center text-grayshade-400  hover:text-grayshade-50 bg-white hover:bg-white-100 rounded-full shadow-md transition duration-150 ease-in-out"
-                aria-label="github"
-              >
-                <FaGithub  className="w-8 h-8 fill-current p-1" />
-              </Link>
+              
+           
             </li>
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-grayshade-400 dark:text-lightColor-100 mr-4">
-            Made with <span className='text-purpleshade-300 '>♥</span> by{" "}
-            <a
-              className="text-purpleshade-300 hover:underline"
-              href="https://github.com/Siza36"
-            >
-              Siza
-            </a>
-          </div>
+       
         </div>
       </div>
     </footer>
